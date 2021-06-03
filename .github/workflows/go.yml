@@ -35,10 +35,10 @@ jobs:
       uses: sonatype-nexus-community/nexus-repo-github-action@master
       with:
         serverUrl: https://pinginx.dannyrollo.com/nexus3/
-        username: nexus-repo-github-action-test-user
+        username: ${{ secrets.nxrm_user }}
         password: ${{ secrets.nxrm_password }}
         format: raw
         repository: raw-github-action-test
-        coordinates: name=com.example version=1.0.0
-        assets: extension=bin
+        coordinates: directory=nexus-repo-github-action-test-rawrepodir
+        assets: filename=gh-action-test
         filename: ./gh-action-test
