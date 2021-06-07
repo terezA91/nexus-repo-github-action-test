@@ -35,7 +35,7 @@ INFO[0000]   ☁  git clone 'https://github.com/actions/setup-go' # ref=v2
 
 ToDo
 ----
-* ~~Done: Replace the commit hash below with a reference to either a release version or the `main` branch
+* ~~Done: Replace the commit hash below with a reference to either a release version or the `master` branch
 in `.github/workflows/go.yml`:~~
   ```yaml
   uses: sonatype-nexus-community/nexus-repo-github-action@811b6670e343fc48fde273906404adaac9bd3885
