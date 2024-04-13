@@ -40,3 +40,5 @@ in `.github/workflows/go.yml`:~~
   ```yaml
   uses: sonatype-nexus-community/nexus-repo-github-action@811b6670e343fc48fde273906404adaac9bd3885
   ```
+
+Hello
