@@ -38,7 +38,7 @@ jobs:
         username: ${{ secrets.NEXUS_USERNAME }}
         password: ${{ secrets.NEXUS_PASSWORD }}
         format: raw
-        repository: raw-github-action-test
+        repository: raw-github-action-test-proxy
         coordinates: directory=nexus-repo-github-action-test-rawrepodir
         assets: filename=gh-action-test
         filename: ./gh-action-test
