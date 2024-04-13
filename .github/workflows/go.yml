@@ -34,7 +34,7 @@ jobs:
     - name: Nexus Repo Publish
       uses: sonatype-nexus-community/nexus-repo-github-action@1.0.0
       with:
-        serverUrl: http://localhost:8081/
+        serverUrl: https://smee.io/fmgZu8ay1rmncr3
         username: ${{ secrets.NEXUS_USERNAME }}
         password: ${{ secrets.NEXUS_PASSWORD }}
         format: raw
