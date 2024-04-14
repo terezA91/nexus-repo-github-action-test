@@ -37,8 +37,8 @@ jobs:
         serverUrl: https://d289-46-162-197-47.ngrok-free.app
         username: ${{ secrets.NEXUS_USERNAME }}
         password: ${{ secrets.NEXUS_PASSWORD }}
-        format: maven2
-        repository: maven-releases
+        format: raw
+        repository: raw-github-action-test
         coordinates: directory=nexus-repo-github-action-test-rawrepodir
         assets: filename=gh-action-test
         filename: ./gh-action-test
