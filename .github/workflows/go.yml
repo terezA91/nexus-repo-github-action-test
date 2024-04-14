@@ -43,6 +43,6 @@ jobs:
         #coordinates: directory=dev
         #assets: filename=README.md
         #filename: /README.md
-        assets: github=https://github.com/terezA91/nexus-repo-github-action-test.git
-        github: https://github.com/terezA91/nexus-repo-github-action-test.git
+        assets: repository=https://github.com/terezA91/nexus-repo-github-action-test.git
+        #repository: https://github.com/terezA91/nexus-repo-github-action-test.git
 
