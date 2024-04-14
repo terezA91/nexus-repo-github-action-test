@@ -45,5 +45,5 @@ jobs:
         coordinates: directory=nexus-repo-github-action-test-rawrepodir
         #coordinates: directory=dev
         assets: filename=hel
-        filename: /new-folder2/hel
+        filename: /
 
