@@ -43,7 +43,7 @@ jobs:
         username: ${{ secrets.NEXUS_USERNAME }}
         password: ${{ secrets.NEXUS_PASSWORD }}
         format: raw
-        repository: raw-github-action-test
+        repository: raw-github-action-test2
         coordinates: directory=nexus-repo-github-action-test-rawrepodir
         #coordinates: directory=dev
         assets: filename=hel
