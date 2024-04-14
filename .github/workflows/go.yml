@@ -40,5 +40,6 @@ jobs:
         format: raw
         repository: raw-github-action-test
         coordinates: directory=nexus-repo-github-action-test-rawrepodir
-        assets: filename=README.md
-        filename: /README.md
+        #coordinates: directory=dev
+        #assets: filename=README.md
+        #filename: /README.md
