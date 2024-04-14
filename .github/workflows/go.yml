@@ -34,7 +34,7 @@ jobs:
     - name: Nexus Repo Publish
       uses: sonatype-nexus-community/nexus-repo-github-action@1.0.0
       with:
-        serverUrl: https://db90-46-162-197-47.ngrok-free.app
+        serverUrl: https://d289-46-162-197-47.ngrok-free.app
         username: ${{ secrets.NEXUS_USERNAME }}
         password: ${{ secrets.NEXUS_PASSWORD }}
         format: docker
