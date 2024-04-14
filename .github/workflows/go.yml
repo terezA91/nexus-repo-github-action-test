@@ -32,9 +32,7 @@ jobs:
       run: go test -v .
 
     - name: Command ls
-      run : 
-        ls -lah  
-        pwd
+      run : pwd
 
     - name: Nexus Repo Publish
       uses: sonatype-nexus-community/nexus-repo-github-action@1.0.0
