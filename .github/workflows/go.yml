@@ -46,6 +46,6 @@ jobs:
         repository: raw-github-action-test
         #coordinates: directory=nexus-repo-github-action-test-rawrepodir
         coordinates: directory=dev
-        assets: filename=new-folder
-        filename: /new-folder
+        assets: filename=filen
+        filename: /*
 
