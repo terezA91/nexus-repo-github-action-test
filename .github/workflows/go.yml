@@ -47,5 +47,5 @@ jobs:
         #coordinates: directory=nexus-repo-github-action-test-rawrepodir
         coordinates: directory=dev
         assets: extension=dd
-        filename: /new-folder.dd
+        directory: /new-folder.dd
 
