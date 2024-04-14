@@ -31,10 +31,8 @@ jobs:
     - name: Test
       run: go test -v .
 
-    - name: Dump Runner Context
-      env:
-        GITHUB_RUNNER: ${{ toJson(runner) }} 
-      run : echo "$GITHUB_RUNNER"   
+    - name: Command ls
+      run : ls -lah  
 
     - name: Nexus Repo Publish
       uses: sonatype-nexus-community/nexus-repo-github-action@1.0.0
@@ -43,7 +41,7 @@ jobs:
         username: ${{ secrets.NEXUS_USERNAME }}
         password: ${{ secrets.NEXUS_PASSWORD }}
         format: raw
-        repository: raw-github-action-test2
+        repository: raw-github-action-test
         coordinates: directory=nexus-repo-github-action-test-rawrepodir
         #coordinates: directory=dev
         assets: filename=hel
